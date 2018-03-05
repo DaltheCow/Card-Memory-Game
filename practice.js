@@ -49,7 +49,7 @@ const clickInit = (card) => {
         }
       }
       if (isOver(cards)) {
-        setTimeout(() => alert(`You win!\nIt took you a ${moveCount} tries`), 1000)
+        setTimeout(() => alert(`You win!\nIt took you ${moveCount} tries`), 1000)
       }
     }
   }
