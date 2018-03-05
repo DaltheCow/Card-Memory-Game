@@ -4,6 +4,48 @@
       Practice
     </title>
   </header>
+  <style>
+
+    .row {
+      display: flex;
+    }
+
+    .card {
+      background-color: blue;
+      width: 100px;
+      height: 100px;
+      border-radius: 25px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      box-sizing: border-box;
+      overflow: hidden;
+
+      /* transition: left .5s, width .5s; */
+      transition: transform .5s;
+    }
+
+    .card-holder {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+    }
+
+    .clicked {
+      background: white;
+      border: 2px solid blue;
+    }
+
+    .thin {
+      transform: scale(.05, 1);
+      -webkit-transform: scale(.05, 1);
+    }
+
+    .card-value {
+      font-size: 50px;
+      font-weight: 700;
+    }
+  </style>
   <body>
     <script type="text/javascript" src="practice.js"></script>
   </body>
